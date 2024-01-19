@@ -16,5 +16,10 @@ public class EmployeeController {
         return employeeService.empName();
     }
 
+    @GetMapping(value = "/get-salary")
+    public String getSalary(){
+        return employeeService.empSalary();
+    }
+
 
 }
