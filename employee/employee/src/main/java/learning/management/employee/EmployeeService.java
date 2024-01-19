@@ -12,4 +12,8 @@ public class EmployeeService {
         return name +" is "+age+" years old.";
     }
 
+    public String empSalary(){
+        return "Berozgar no salary";
+    }
+
 }
